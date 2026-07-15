@@ -29,7 +29,10 @@
                 "input": "public"
               }
             ],
-            "styles": ["src/styles.scss"]
+            "styles": [
+              "src/styles.scss",
+              "node_modules/@i-cell/ids-styles/dist/components.css"
+            ]
           },
           "configurations": {
             "production": {
