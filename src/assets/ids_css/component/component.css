@@ -6333,7 +6333,7 @@
   --ids-comp-tag-outlined-color-bg-success-focused: var(--ids-smc-reference-container-color-bg-surface-transparent-0);
   --ids-comp-tag-outlined-color-bg-success-hovered: var(--ids-smc-reference-container-color-bg-surface-transparent-100);
   --ids-comp-tag-outlined-color-bg-success-pressed: var(--ids-smc-reference-container-color-bg-surface-transparent-200);
-  --ids-comp-tag-outlined-color-bg-surface-default: var(--ids-smc-reference-container-color-bg-surface-lighter-10);
+  --ids-comp-tag-outlined-color-bg-surface-default: var(--ids-smc-reference-container-color-bg-surface-darker-70);
   --ids-comp-tag-outlined-color-bg-surface-focused: var(--ids-smc-reference-container-color-bg-surface-darker-10);
   --ids-comp-tag-outlined-color-bg-surface-hovered: var(--ids-smc-reference-container-color-bg-surface-darker-10);
   --ids-comp-tag-outlined-color-bg-surface-pressed: var(--ids-smc-reference-container-color-bg-surface-darker-30);
