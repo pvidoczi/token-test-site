@@ -585,7 +585,7 @@
   --ids-comp-button-filled-color-bg-success-focused: var(--ids-smc-reference-container-color-bg-success-default);
   --ids-comp-button-filled-color-bg-success-hovered: var(--ids-smc-reference-container-color-bg-success-darker-20);
   --ids-comp-button-filled-color-bg-success-pressed: var(--ids-smc-reference-container-color-bg-success-darker-30);
-  --ids-comp-button-filled-color-bg-surface-default: var(--ids-smc-reference-container-color-border-success-darker-10);
+  --ids-comp-button-filled-color-bg-surface-default: var(--ids-smc-reference-container-color-border-brand-fixed-default);
   --ids-comp-button-filled-color-bg-surface-disabled: var(--ids-smc-reference-container-color-bg-disabled-default);
   --ids-comp-button-filled-color-bg-surface-focused: var(--ids-smc-reference-container-color-bg-surface-darker-10);
   --ids-comp-button-filled-color-bg-surface-hovered: var(--ids-smc-reference-container-color-bg-surface-darker-20);
