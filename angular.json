@@ -31,6 +31,7 @@
             ],
             "styles": [
               "src/styles.scss",
+              "src/assets/ids_css/tokens.css",
               "node_modules/@i-cell/ids-styles/dist/components.css"
             ]
           },
