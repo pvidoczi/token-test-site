@@ -585,7 +585,7 @@
   --ids-comp-button-filled-color-bg-success-focused: var(--ids-smc-reference-container-color-bg-success-default);
   --ids-comp-button-filled-color-bg-success-hovered: var(--ids-smc-reference-container-color-bg-success-darker-20);
   --ids-comp-button-filled-color-bg-success-pressed: var(--ids-smc-reference-container-color-bg-success-darker-30);
-  --ids-comp-button-filled-color-bg-surface-default: var(--ids-smc-reference-container-color-border-brand-fixed-default);
+  --ids-comp-button-filled-color-bg-surface-default: var(--ids-smc-reference-container-color-border-surface-darker-10);
   --ids-comp-button-filled-color-bg-surface-disabled: var(--ids-smc-reference-container-color-bg-disabled-default);
   --ids-comp-button-filled-color-bg-surface-focused: var(--ids-smc-reference-container-color-bg-surface-darker-10);
   --ids-comp-button-filled-color-bg-surface-hovered: var(--ids-smc-reference-container-color-bg-surface-darker-20);
@@ -2321,15 +2321,7 @@
   --ids-comp-dialog-header-title-typography-line-height-compact: var(--ids-smc-reference-typography-line-height-36);
   --ids-comp-dialog-header-title-typography-line-height-dense: var(--ids-smc-reference-typography-line-height-36);
   --ids-comp-dialog-header-title-typography-line-height-spacious: var(--ids-smc-reference-typography-line-height-36);
-  --ids-comp-divider-color-bg-brand-default: var(--ids-smc-reference-container-color-bg-brand-default);
-  --ids-comp-divider-color-bg-dark-default: var(--ids-smc-reference-container-color-bg-surface-darker-95);
-  --ids-comp-divider-color-bg-error-default: var(--ids-smc-reference-container-color-bg-error-default);
-  --ids-comp-divider-color-bg-light-default: var(--ids-smc-reference-container-color-bg-surface-lighter-10);
-  --ids-comp-divider-color-bg-primary-default: var(--ids-smc-reference-container-color-bg-primary-default);
-  --ids-comp-divider-color-bg-secondary-default: var(--ids-smc-reference-container-color-bg-secondary-default);
-  --ids-comp-divider-color-bg-success-default: var(--ids-smc-reference-container-color-bg-success-default);
   --ids-comp-divider-color-bg-surface-default: var(--ids-smc-reference-container-color-bg-surface-darker-30);
-  --ids-comp-divider-color-bg-warning-default: var(--ids-smc-reference-container-color-bg-warning-default);
   --ids-comp-divider-size-border-radius-comfortable: var(--ids-smc-reference-container-border-radius-none);
   --ids-comp-divider-size-border-radius-compact: var(--ids-smc-reference-container-border-radius-none);
   --ids-comp-divider-size-border-radius-dense: var(--ids-smc-reference-container-border-radius-none);
