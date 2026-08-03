@@ -1,11 +1,102 @@
-<div>
-  <button
-    idsButton
-    variant="surface"
-    appearance="filled"
-    type="button"
-    (click)="handleClick()"
-  >
-    Kattints rám
-  </button>
-</div>
+<main class="home">
+  <nav class="topbar" aria-label="Fő navigáció">
+    <a class="brand" href="/" aria-label="Flow kezdőlap">
+      <span class="brand-mark">F</span>
+      <span>Flow</span>
+    </a>
+    <button idsButton size="dense" variant="surface" appearance="text" type="button">Súgó</button>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">Személyes munkatér</span>
+      <h1>Minden, ami fontos, egy helyen.</h1>
+      <p>Állítsd be az értesítéseidet és a számodra megfelelő csomagot néhány egyszerű lépésben.</p>
+      <div class="hero-actions">
+        <button idsButton size="compact" variant="primary" appearance="filled" type="button">
+          Beállítások mentése
+        </button>
+        <button idsButton size="compact" variant="surface" appearance="outlined" type="button">
+          Részletek
+        </button>
+      </div>
+    </div>
+
+    <aside class="hero-summary" aria-label="Fiók összefoglaló">
+      <div class="summary-heading">
+        <span class="status-dot"></span>
+        <span>Aktív fiók</span>
+      </div>
+      <strong>Standard</strong>
+      <span class="summary-caption">A következő megújítás 18 nap múlva</span>
+      <ids-divider variant="surface" />
+      <div class="summary-row">
+        <span>Tárhelyhasználat</span>
+        <b>64%</b>
+      </div>
+      <div class="progress"><span></span></div>
+    </aside>
+  </section>
+
+  <ids-divider class="page-divider" variant="surface" />
+
+  <section class="content" aria-labelledby="preferences-title">
+    <div class="section-heading">
+      <div>
+        <span class="eyebrow">Testreszabás</span>
+        <h2 id="preferences-title">Saját beállítások</h2>
+      </div>
+      <p>A módosításokat bármikor visszaállíthatod.</p>
+    </div>
+
+    <div class="card-grid">
+      <ids-card size="compact" appearance="outlined" variant="surface">
+        <ids-card-header>
+          <h3 idsCardTitle>Értesítések</h3>
+          <p idsCardSubtitle>Válaszd ki, miről szeretnél értesülni.</p>
+        </ids-card-header>
+        <ids-card-body>
+          <div class="control-list">
+            <ids-checkbox size="compact" [checked]="true"> Heti összefoglaló </ids-checkbox>
+            <ids-checkbox size="compact">Termékújdonságok</ids-checkbox>
+            <ids-divider variant="surface" />
+            <ids-switch
+              size="compact"
+              label="Push értesítések"
+              name="notifications"
+              [(ngModel)]="notificationsEnabled"
+            />
+          </div>
+        </ids-card-body>
+      </ids-card>
+
+      <ids-card size="compact" appearance="outlined" variant="surface">
+        <ids-card-header>
+          <h3 idsCardTitle>Előfizetés</h3>
+          <p idsCardSubtitle>Válaszd ki a neked megfelelő csomagot.</p>
+        </ids-card-header>
+        <ids-card-body>
+          <ids-radio-group
+            name="plan"
+            orientation="vertical"
+            size="compact"
+            [(ngModel)]="selectedPlan"
+          >
+            <ids-radio value="basic">Alap</ids-radio>
+            <ids-radio value="standard">Standard</ids-radio>
+            <ids-radio value="premium">Prémium</ids-radio>
+          </ids-radio-group>
+        </ids-card-body>
+      </ids-card>
+    </div>
+
+    <div class="form-actions">
+      <button idsButton size="compact" variant="surface" appearance="text" type="button">
+        Visszaállítás
+      </button>
+      <button idsButton size="compact" variant="primary" appearance="filled" type="button">
+        Módosítások mentése
+      </button>
+    </div>
+  </section>
+</main>
