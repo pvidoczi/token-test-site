@@ -1524,7 +1524,7 @@
   --ids-comp-checkbox-input-selected-color-bg-light-focused: var(--ids-smc-reference-forms-color-bg-light-focused);
   --ids-comp-checkbox-input-selected-color-bg-light-hovered: var(--ids-smc-reference-forms-color-bg-light-hovered);
   --ids-comp-checkbox-input-selected-color-bg-light-pressed: var(--ids-smc-reference-forms-color-bg-light-pressed);
-  --ids-comp-checkbox-input-selected-color-bg-surface-default: var(--ids-smc-reference-forms-color-bg-primary-default);
+  --ids-comp-checkbox-input-selected-color-bg-surface-default: var(--ids-smc-reference-forms-color-border-light-hovered);
   --ids-comp-checkbox-input-selected-color-bg-surface-disabled: var(--ids-smc-reference-forms-color-bg-primary-disabled);
   --ids-comp-checkbox-input-selected-color-bg-surface-focused: var(--ids-smc-reference-forms-color-bg-primary-focused);
   --ids-comp-checkbox-input-selected-color-bg-surface-hovered: var(--ids-smc-reference-forms-color-bg-primary-hovered);
