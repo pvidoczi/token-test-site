@@ -1,1 +1,41 @@
+/*
+ * IDS font families.
+ *
+ * Keep the family names in sync with the typography tokens in
+ * assets/ids_css/base/base.css. Referencing the files from this global
+ * stylesheet also makes Angular copy and fingerprint them during a build.
+ */
+@font-face {
+  font-family: "I-DS-font-icon-default";
+  src:
+    url("assets/fonts/I-DS-font-icon-default.woff2") format("woff2"),
+    url("assets/fonts/I-DS-font-icon-default.woff") format("woff"),
+    url("assets/fonts/I-DS-font-icon-default.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "I-DS-font-icon-material";
+  src:
+    url("assets/fonts/I-DS-font-icon-material.woff2") format("woff2"),
+    url("assets/fonts/I-DS-font-icon-material.woff") format("woff"),
+    url("assets/fonts/I-DS-font-icon-material.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: "I-DS-font-icon-remix";
+  src:
+    url("assets/fonts/I-DS-font-icon-remix.woff2") format("woff2"),
+    url("assets/fonts/I-DS-font-icon-remix.woff") format("woff"),
+    url("assets/fonts/I-DS-font-icon-remix.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+}
+
 /* Application-wide styles belong in this file. IDS tokens are loaded through angular.json. */
