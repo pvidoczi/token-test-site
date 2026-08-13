@@ -585,7 +585,7 @@
   --ids-comp-button-filled-color-bg-success-focused: var(--ids-smc-reference-container-color-bg-success-default);
   --ids-comp-button-filled-color-bg-success-hovered: var(--ids-smc-reference-container-color-bg-success-darker-20);
   --ids-comp-button-filled-color-bg-success-pressed: var(--ids-smc-reference-container-color-bg-success-darker-30);
-  --ids-comp-button-filled-color-bg-surface-default: var(--ids-smc-reference-container-color-border-brand-fixed-darker-40);
+  --ids-comp-button-filled-color-bg-surface-default: var(--ids-smc-reference-container-color-border-surface-darker-10);
   --ids-comp-button-filled-color-bg-surface-disabled: var(--ids-smc-reference-container-color-bg-disabled-default);
   --ids-comp-button-filled-color-bg-surface-focused: var(--ids-smc-reference-container-color-bg-surface-darker-10);
   --ids-comp-button-filled-color-bg-surface-hovered: var(--ids-smc-reference-container-color-bg-surface-darker-20);
@@ -610,7 +610,7 @@
   --ids-comp-button-filled-color-border-error-focused: var(--ids-smc-reference-container-color-border-surface-transparent-0);
   --ids-comp-button-filled-color-border-error-hovered: var(--ids-smc-reference-container-color-border-surface-transparent-0);
   --ids-comp-button-filled-color-border-error-pressed: var(--ids-smc-reference-container-color-border-surface-transparent-0);
-  --ids-comp-button-filled-color-border-light-default: var(--ids-smc-reference-container-color-border-surface-fixed-darker-90);
+  --ids-comp-button-filled-color-border-light-default: var(--ids-smc-reference-container-color-border-surface-transparent-0);
   --ids-comp-button-filled-color-border-light-disabled: var(--ids-smc-reference-container-color-border-surface-transparent-0);
   --ids-comp-button-filled-color-border-light-fixed-default: var(--ids-smc-reference-container-color-border-surface-transparent-0);
   --ids-comp-button-filled-color-border-light-fixed-focused: var(--ids-smc-reference-container-color-border-surface-transparent-0);
@@ -975,7 +975,7 @@
   --ids-comp-button-outlined-color-fg-label-warning-hovered: var(--ids-smc-reference-container-color-fg-warning-darker-10);
   --ids-comp-button-outlined-color-fg-label-warning-pressed: var(--ids-smc-reference-container-color-fg-warning-darker-20);
   --ids-comp-button-size-border-radius-comfortable: var(--ids-smc-reference-container-border-radius-full);
-  --ids-comp-button-size-border-radius-compact: var(--ids-smc-reference-container-border-radius-full);
+  --ids-comp-button-size-border-radius-compact: var(--ids-smc-reference-container-border-radius-sm);
   --ids-comp-button-size-border-radius-dense: var(--ids-smc-reference-container-border-radius-full);
   --ids-comp-button-size-border-radius-spacious: var(--ids-smc-reference-container-border-radius-full);
   --ids-comp-button-size-border-width-comfortable: var(--ids-smc-reference-container-border-width-sm);
