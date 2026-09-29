@@ -610,6 +610,7 @@
   --ids-comp-button-filled-color-bg-primary-default: var(--ids-smc-reference-container-color-bg-primary-default);
   --ids-comp-button-filled-color-bg-primary-disabled: var(--ids-smc-reference-container-color-bg-disabled-default);
   --ids-comp-button-filled-color-bg-primary-focused: var(--ids-smc-reference-container-color-bg-primary-default);
+  --ids-comp-button-filled-color-bg-primary-hello-new-workflow-we-love-you: var(--ids-smc-reference-container-color-bg-primary-default);
   --ids-comp-button-filled-color-bg-primary-hovered: var(--ids-smc-reference-container-color-bg-primary-darker-20);
   --ids-comp-button-filled-color-bg-primary-pressed: var(--ids-smc-reference-container-color-bg-primary-darker-30);
   --ids-comp-button-filled-color-bg-secondary-default: var(--ids-smc-reference-container-color-bg-secondary-default);
