@@ -4,7 +4,9 @@
       <span class="brand-mark">F</span>
       <span>Flow</span>
     </a>
-    <button idsButton size="dense" variant="surface" appearance="text" type="button">Súgó</button>
+    <button idsButton size="dense" variant="surface" appearance="text" type="button">
+      Súgó
+    </button>
   </nav>
 
   <section class="hero">
@@ -14,17 +16,19 @@
       <p>Állítsd be az értesítéseidet és a számodra megfelelő csomagot néhány egyszerű lépésben.</p>
       <div class="hero-actions">
         <button idsButton size="compact" variant="primary" appearance="filled" type="button">
+          <ids-icon icon-leading fontIcon="save" aria-hidden="true" />
           Beállítások mentése
         </button>
         <button idsButton size="compact" variant="surface" appearance="outlined" type="button">
           Részletek
+          <ids-icon icon-trailing fontIcon="arrow-forward" aria-hidden="true" />
         </button>
       </div>
     </div>
 
     <aside class="hero-summary" aria-label="Fiók összefoglaló">
       <div class="summary-heading">
-        <span class="status-dot"></span>
+        <ids-icon fontIcon="account-circle" variant="success" aria-hidden="true" />
         <span>Aktív fiók</span>
       </div>
       <strong>Standard</strong>
@@ -52,7 +56,12 @@
     <div class="card-grid">
       <ids-card size="compact" appearance="outlined" variant="surface">
         <ids-card-header>
-          <h3 idsCardTitle>Értesítések</h3>
+          <div class="card-title-row">
+            <span class="card-icon">
+              <ids-icon fontIcon="notifications" variant="primary" aria-hidden="true" />
+            </span>
+            <h3 idsCardTitle>Értesítések</h3>
+          </div>
           <p idsCardSubtitle>Válaszd ki, miről szeretnél értesülni.</p>
         </ids-card-header>
         <ids-card-body>
@@ -72,7 +81,12 @@
 
       <ids-card size="compact" appearance="outlined" variant="surface">
         <ids-card-header>
-          <h3 idsCardTitle>Előfizetés</h3>
+          <div class="card-title-row">
+            <span class="card-icon">
+              <ids-icon fontIcon="credit-card" variant="primary" aria-hidden="true" />
+            </span>
+            <h3 idsCardTitle>Előfizetés</h3>
+          </div>
           <p idsCardSubtitle>Válaszd ki a neked megfelelő csomagot.</p>
         </ids-card-header>
         <ids-card-body>
@@ -92,9 +106,11 @@
 
     <div class="form-actions">
       <button idsButton size="compact" variant="surface" appearance="text" type="button">
+        <ids-icon icon-leading fontIcon="restore" aria-hidden="true" />
         Visszaállítás
       </button>
       <button idsButton size="compact" variant="primary" appearance="filled" type="button">
+        <ids-icon icon-leading fontIcon="save" aria-hidden="true" />
         Módosítások mentése
       </button>
     </div>

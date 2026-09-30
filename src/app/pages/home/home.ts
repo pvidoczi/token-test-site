@@ -10,6 +10,7 @@ import {
 } from '@i-cell/ids-angular/card';
 import { IdsCheckboxComponent } from '@i-cell/ids-angular/checkbox';
 import { IdsDividerComponent } from '@i-cell/ids-angular/divider';
+import { IdsIconComponent } from '@i-cell/ids-angular/icon';
 import { IdsRadioComponent, IdsRadioGroupComponent } from '@i-cell/ids-angular/radio';
 import { IdsSwitchComponent } from '@i-cell/ids-angular/switch';
 
@@ -26,6 +27,7 @@ import { IdsSwitchComponent } from '@i-cell/ids-angular/switch';
     IdsCardTitleDirective,
     IdsCheckboxComponent,
     IdsDividerComponent,
+    IdsIconComponent,
     IdsRadioComponent,
     IdsRadioGroupComponent,
     IdsSwitchComponent,
